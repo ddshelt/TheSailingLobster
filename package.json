@@ -1,0 +1,29 @@
+{
+  "name": "thesailinglobster",
+  "version": "1.0.0",
+  "description": "- Set up folders -",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "cpx": "^1.5.0",
+    "sass": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "./node_modules/.bin/sass  src/sass/main.scss dist/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddshelt/TheSailingLobster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddshelt/TheSailingLobster/issues"
+  },
+  "homepage": "https://github.com/ddshelt/TheSailingLobster#readme"
+}

@@ -1,0 +1,21 @@
+.jumbotron {
+  padding: $jumbotron-padding ($jumbotron-padding / 2);
+  margin-bottom: $jumbotron-padding;
+  background-image: url(https://www.uwishunu.com/wp-content/uploads/2015/10/Chickies-And-Petes-Seafood-Feast-1280uw.jpg);
+  background-size: cover;
+  @include border-radius($border-radius-lg);
+
+  @include media-breakpoint-up(sm) {
+    padding: ($jumbotron-padding * 2) $jumbotron-padding;
+  }
+}
+
+.jumbotron h1 {
+  color: #55967e
+}
+
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  @include border-radius(0);
+}

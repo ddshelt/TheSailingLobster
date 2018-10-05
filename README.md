@@ -1,1 +1,4 @@
 # TheSailingLobster
+
+- Set up folders
+-
