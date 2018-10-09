@@ -14,7 +14,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "./node_modules/.bin/sass  src/sass/main.scss dist/css/main.css"
+    "sass": "./node_modules/.bin/sass  src/sass/main.scss dist/css/main.css",
+    "cpx": "./node_modules/.bin/cpx \"src/**/*.html\" dist --watch"
   },
   "repository": {
     "type": "git",
